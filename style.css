@@ -1,0 +1,143 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+body{
+    background-Color:#87CEFA ;
+}
+
+.form-group.birthday {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.form-group.birthday label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group.birthday input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px; /* Adjust the font size */
+}
+
+.form-group.birthday input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none; /* Hide the default date picker arrow */
+}
+
+/* Add custom date picker icon */
+.form-group.birthday .birthday-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #888;
+}
+
+/* Style the icon */
+.form-group.birthday .birthday-icon i {
+    font-size: 20px;
+}
+.error-message {
+    color: #ff0000; /* Red color for error messages */
+    font-weight: bold;
+    font-size: 14px;
+    background-color: rgb(39, 26, 26);
+    margin-top: 5px; /* Add a small margin above each error message */
+}
+/* #reg{
+    background-color: rgb(136, 62, 200);
+}
+#log{
+    background-color: rgb(15, 171, 114);
+} */
+/* Style for the OR div */
+#or {
+    margin: 10px 0;
+    text-align: center;
+}
+
+/* Style for the Register button */
+#reg {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Style for the Login button */
+#log {
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    width: 100px; /* Adjust the width as needed */
+}
+#out {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #ce75aa;
+    color: #380037;
+    border-radius: 10px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+#out:hover {
+    background-color: #c78ed3;
+}
+
